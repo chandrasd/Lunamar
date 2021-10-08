@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="left-links">
+        <a class ="links selected" href="#"><i class="fa fa-fw fa-building"></i>Lunamar</a>
+        </div>
+        <div class="right-links">
+            <a  class="links"href="../html/index.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+            <a class="links" href="../html/Aboutus.html"><i class="fa fa-fw fa-question-circle"></i>About US</a> 
+            <a class="links" href="#"><i class="fa fa-fw fa-cog"></i>Service</a> 
+            <a class="links" href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+            <a class="links" href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+    
+        </div>
+    </nav>
+    <div class="signup-box">
+        <img src="https://static.thenounproject.com/png/736691-200.png" class="signup-icon">
+        <h2>Signup</h2>
+        <form onsubmit="return signup(this);">
+            <p>First name</p>
+            <input type="text" name="fname-field" placeholder="First name">
+            <p>Last name</p>
+            <input type="text" name="lname-field" placeholder="Last name">
+            <br>
+            <p>Username</p>
+            <input type="text" name="username-field" placeholder="Username">
+            <p>Password</p>
+            <input type="password" name="password-field" placeholder="Password">
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+            <p>Email</p>
+            <input type="text" name="email-field" placeholder="Email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>Phone</p>
+            <input type="text" name="phone-field" placeholder="Phone">
+            <br>
+            
+            <input type="submit" name="" value="Sign Up"><br>
+            <a href="../html/signin.html">Already have an account? Sign In.</a>
+        </form>
+    </div>
+    
+</body>
+</html>

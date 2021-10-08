@@ -1,0 +1,79 @@
+body{
+    margin:0px;
+    margin-top:60px;
+    padding: 0px;
+
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background-image: url(../resources/welcome.jpeg);
+      background-repeat: no-repeat;
+      width: 100%;
+  
+  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  nav{
+    display: flex;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: rgb(18, 11, 44);
+    overflow: auto;
+    height: auto;
+  }
+  .left-links{
+    flex:1 1 200px;
+    text-align: left;
+  }
+  .links {
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    color: rgb(253, 247, 247);
+    text-decoration: unset;
+    font-size: 17px;
+    font-weight: bolder;
+  }
+  .links:hover {
+    border-bottom: 2px solid rgb(0, 0, 0);
+  }
+  .selected{
+    border-bottom: 2px solid rgb(0, 0, 0);
+  }
+  .heading{
+    text-align: center;
+    font-family: cursive;
+    color: black;
+    padding-left: 50px;
+    margin-top: 100px;
+    
+
+  }
+  .button1{
+    background-color: rgb(18, 11, 44);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: unset;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .about{
+
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+    margin-top: 60px;
+    
+  }
+ 
+  
+    
+  
+  
+  
+  

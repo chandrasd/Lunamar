@@ -1,0 +1,137 @@
+nav{
+    display: flex;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: rgb(3, 3, 3);
+    overflow: auto;
+    height: auto;
+  }
+  .left-links{
+    flex:1 1 200px;
+    text-align: left;
+  }
+  .links {
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: unset;
+    color: rgb(253, 247, 247);
+    font-size: 17px;
+    font-weight: bolder;
+  }
+  .links:hover {
+    border-bottom: 2px solid rgb(255, 252, 252);
+  }
+  .selected{
+    border-bottom: 2px solid rgb(0, 0, 0);
+  }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(../resources/welcome.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.signup-box {
+    width: wrap;
+    height: wrap;
+    background-color: rgb(241, 248, 248);
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border-color: black;
+    border-style: double;
+    box-sizing: border-box;
+    padding-top: 10%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.signup-icon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    background-size: cover;
+    transform: translate(-50%, -10%);
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    ;
+}
+
+li {
+    display: inline;
+}
+
+
+
+h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.signup-box p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: inline;
+}
+
+.signup-box input {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.signup-box input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 35px;
+    font-size: 14px;
+}
+
+.signup-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: turquoise;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 5px;
+    left: 50%;
+    transform: translate(110%);
+}
+
+.signup-box input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.signup-box a
+ {
+    text-decoration: unset;
+    font-size: 12px;
+    line-height: 20px;
+    color: blue;
+}
+
+.signup-box input[type="radio"] {
+    width: auto;
+    margin-bottom: 15px;
+}

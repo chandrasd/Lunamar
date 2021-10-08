@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/signin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <title>Document</title>
+</head>
+<body>
+  <nav>
+    <div class="left-links">
+    <a class ="links selected" href="#"><i class="fa fa-fw fa-building"></i>Lunamar</a>
+    </div>
+    <div class="right-links">
+        <a  class="links"href="../html/index.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+        <a class="links" href="../html/Aboutus.html"><i class="fa fa-fw fa-question-circle"></i>About US</a> 
+        <a class="links" href="#"><i class="fa fa-fw fa-cog"></i>Service</a> 
+        <a class="links" href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+        <a class="links" href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+
+    </div>
+</nav>
+    <form action="action_page.php" style="border:1px solid #ccc">
+ 
+      <div class="signin-box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgy-nLu_4sPKcCVPG6zqPtf6b0Auj4guKz8D4_Aj4oZVYAs6G9Va8Olr96-_5ZPT7Y-p0&usqp=CAU" class="signin-icon">
+        <h2>Sign In</h2>
+        <form onsubmit="return signin(this);">
+            <p>Username</p>
+            <input type="text" name="username-field" placeholder="Username">
+            <p>Password</p>
+            <input type="password" name="password-field" placeholder="Password"><br>
+            <input type="radio" id="super-admin-radio" name="role-radio" value="super-admin"><label for="super-admin-radio"> Super Admin</label><br>
+            <input type="radio" id="admin-radio" name="role-radio" value="admin" checked><label for="manager-radio"> Manager</label><br>
+            <input type="radio" id="admin-radio" name="role-radio" value="admin" checked><label for="resident-radio"> Resident</label><br>
+            <input type="radio" id="immigrant-radio" name="role-radio" value="immigrant"><label for="visitor-radio"> Visitor</label><br>
+            <input type="submit" name="" value="signin" onclick="return Sign In()"><br>
+            <a href="#" id="forgot-password">Forgot password?</a><br>
+            <a href="../html/signup.html" id="new-account">Don't have an account? Create one.</a>
+        </form>
+    </div>
+      </form>
+
+      
+    
+</body>
+</html>
